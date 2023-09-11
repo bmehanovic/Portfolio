@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+                font-size: 35px;
+                line-height: 46px;
+                margin: 0;
+                color:#1607e7;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            h2{
+                text-align: center;
+                font-size: 35px;
+                line-height: 46px;
+                margin: 0;
+                font-weight: 400;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            div{
+                display: block;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            ul{
+                padding: 0;
+                list-style:none;
+            }
+            .weather{
+                text-align: center;
+                padding: 9px 0;
+                border-radius: 10px;
+                transition: all 200ms ease-in-out;
+                max-width: 350px;
+                margin: 0 auto;
+            }
+            .weather:hover{
+                background-color: #fffbef;
+                cursor: default;
+            }
+            button{
+                display: block;
+                margin: 15px auto;
+                padding: 15px 25px;
+                font-size: 20px;
+                line-height: 20px;
+                color: #ffffff;
+                background: #1607e7;
+                border: 1px solid #1607e7;
+                border-color: #1607e7;
+                border-radius: 33px;
+                transition: all 200ms ease-in-out;
+            }
+            button:hover{
+                color: #1607e7;
+                background: #ffffff;
+                border-color: #1607e7;
+                cursor: pointer;
+            }
+            p{
+                text-align: center;
+    font-family: monospace;
+                    font-size: 21px;
+                opacity: 0.65;
+            }
+            p:hover{
+                cursor: default;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div>
+        <h1>
+            &#9728;&#65039;
+            <br>
+            Currently 30&deg; in Zagreb
+        </h1>
+        <h2>
+            27&deg; / 
+            <b> 32&deg;</b>
+        </h2>
+        <ul>
+            <li class="weather">
+                <h3>&#x26C5; Tomorrow</h3>
+                <p>
+                    25&deg; /
+                    <b>29&deg;</b>
+                </p>
+            </li>
+            <li class="weather">
+                <h3>&#x1F32B; Saturday</h3>
+                <p>
+                    23&deg; /
+                    <b>28&deg;</b>
+                </p>
+            </li>
+            <li class="weather">
+                <h3>&#9728;&#65039; Sunday</h3>
+                <p>
+                    29&deg; /
+                    <b>33&deg;</b>
+                </p>
+            </li>
+        </ul>
+        <button type="button">
+            Change city
+        </button>
+    </div>
+    </body>
+</html>
