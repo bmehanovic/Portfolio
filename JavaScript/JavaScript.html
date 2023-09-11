@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title> Love of Beaches </title>
+        <style>
+            body {
+                background-color: #13C9D8;
+            }
+            
+            h1 {
+                color: #006C5F;
+                text-align: center;
+                font-weight: 200;
+            }
+            h2 {
+                text-align: center;
+                border: 2px solid #CC6747;
+                border-radius: 5px;
+                line-height: 2;
+                padding: 15px;
+                font-size: 20px;
+
+            }
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            .learning-link {
+                display: block;
+                border: 2px solid;
+                border-radius: 5px;
+                text-align: center;
+            }
+            .learning-link:hover {
+                text-decoration: underline;
+            }
+            button {
+                display: block;
+                margin: 0 auto;
+                box-shadow: 5px 5px 5px 5px #007775;
+                transition: all 150ms ease-in-out;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>
+                Who doesn't love going to the Beach!
+            </h1>
+
+            <hr>
+
+            <h2> What is a real <em>beach</em>? </h2>
+
+                <img src="https://a.cdn-hotels.com/gdcs/production35/d608/13373b0c-d128-4d6c-b8cb-b87630de6e13.jpg" width="300" />
+
+                <p>
+                A <strong>beach</strong> is a landform alongside a body of <span style="color:blue">water</span> 
+                which consists of loose particles. The particles composing a beach are typically made 
+                from rock, such as sand, gravel, shingle, pebbles, etc., or biological sources, such 
+                as mollusc shells or coralline algae. Sediments settle in different densities and structures, 
+                depending on the local wave action and weather, creating different textures, colors and 
+                gradients or layers of material. 
+                <br />
+                <a href="https://en.wikipedia.org/wiki/Beach" target="_blank" class="learning-link">Learn more at Wiki Beaches</a>
+                </p>
+
+            <button>
+                Learn More
+            </button>
+        </div>
+        <script>
+            function learnMore() {
+                let name = prompt("What is your name?");
+                let beach = prompt("Do you like going to the beach?");
+                let favoriteBeach = beach.toLowerCase();
+                let h1 = document.querySelector("h1");
+                alert("Thank you " + name);
+
+                if (favoriteBeach === 'yes') {
+                    h1.innerHTML = name + " loves going to the beach";
+                }
+                else {
+                    h1.innerHTML = name + " doesn't love going to the beach";
+                }
+            }
+            let applyButton = document.querySelector("button");
+            applyButton.addEventListener("click", learnMore);
+        </script>
+    </body>
+</html>
