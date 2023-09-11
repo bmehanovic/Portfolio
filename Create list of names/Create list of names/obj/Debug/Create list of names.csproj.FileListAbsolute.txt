@@ -1,0 +1,10 @@
+C:\Programming\C#\Create list of names\Create list of names\bin\Debug\Create list of names.exe.config
+C:\Programming\C#\Create list of names\Create list of names\bin\Debug\Create list of names.exe
+C:\Programming\C#\Create list of names\Create list of names\bin\Debug\Create list of names.pdb
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create list of names.csproj.AssemblyReference.cache
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create_list_of_names.Form1.resources
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create_list_of_names.Properties.Resources.resources
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create list of names.csproj.GenerateResource.cache
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create list of names.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create list of names.exe
+C:\Programming\C#\Create list of names\Create list of names\obj\Debug\Create list of names.pdb
